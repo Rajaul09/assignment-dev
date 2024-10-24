@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.front{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
 .banner{
     background-image: url('./asset/Hero-bg.png');
     background-repeat: no-repeat;
@@ -14,8 +20,8 @@
     padding-top: 26px;
 }
 .banner-img{
-width: 240.28px;
-height: 240px;
+    width: 240.28px;
+    height: 240px;
 }
 .banner-title{
     color: rgb(13, 19, 33);
@@ -42,4 +48,73 @@ height: 240px;
     line-height: 23px;
     width: 244px;
     height: 65px;
+}
+.bodypart-one{
+    width: 946px;
+    height: 1233px;
+    justify-content: center;
+    text-align: center;
+    /* background-color: beige; */
+    margin-left: 247px;
+    margin-right: 247px;
+    margin-top: 80px;
+}
+.Layer_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 120px;
+}
+.Layerheading{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin: 20px;
+}
+.Layerp{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 20px;
+}
+.Layerbtn{
+    width: 160px;
+    height: 42px;
+    margin: 20px;
+    padding: 12px 20px 12px 20px;
+
+}
+.content-1{
+    text-align: left;
+}
+.pageheading{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-right: 30px;
+}
+.headingdiv{
+    align-items: center; 
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.layer-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 120px;
+}
+.layer-3{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+
 }
